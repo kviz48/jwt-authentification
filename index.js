@@ -4,7 +4,7 @@ import { router } from "./authRoutes.js";
 
 const PORT = process.env.PORT || 5000
 const app = express()
-const db = 'mongodb+srv://root:root@cluster0.h0o0l.mongodb.net/mern-course?retryWrites=true&w=majority'
+const db = '*'
 
 app.use(express.json())
  
